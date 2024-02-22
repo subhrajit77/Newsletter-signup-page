@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -28,30 +31,77 @@ body {
     border-radius: 20px ;
     width: 60%;
     background-color: hsl(0, 0%, 100%);
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     padding: 10px 40px;
     
 }
 .content{
-    margin-top: 20px;
+    margin-top: 14px;
     margin-bottom: 20px;
     padding: 20px 0px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    
    
     
     /* border-radius: 20px ; */
-    width: 105%;
+    width: 110%;
     height: 85%;
     /* background-color: hsl(0, 0%, 100%); */
     /* padding: 10px 40px; */
     /* margin: 10px 0px; */
 }
 .content h1{
-    margin-bottom: 20px;
+    
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
     text-align: left;
     color: hsl(235, 18%, 26%);
 }
+.content li,p{
+  font-family: "Roboto", sans-serif;
+  padding: 3px;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(235, 18%, 26%);
+}
+.content li{
+  list-style:url(assets/images/icon-list.png);
+  /* background-color: rgb(46, 44, 44); */
+}
+.content ul{
+  padding: 10px;
+  
+}
 
+form{
+  padding: 5px;
+  
+}
+form input{
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  /* display: block; */
+  text-align: center;
+  width: 77%;
+  padding: 10px 10px;
+  margin: 0px 0px;
+  border-radius: 5px;
+  border: 1px solid hsl(231, 7%, 60%);
+  background-color: hsl(235, 18%, 26%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+
+}
 
 
 
