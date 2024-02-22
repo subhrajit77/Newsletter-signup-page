@@ -61,20 +61,27 @@ body {
 }
 .content li,p{
   font-family: "Roboto", sans-serif;
-  padding: 3px;
+  padding: 3px 0px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   color: hsl(235, 18%, 26%);
 }
 .content li{
-  list-style:url(assets/images/icon-list.png);
-  /* background-color: rgb(46, 44, 44); */
+  list-style-image: url(
+"assets/images/icon-list.png");
+margin-left: 12px;
+
 }
 .content ul{
   padding: 10px;
   
 }
-
+.email{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: -10px;
+  font-size: 12px;
+}
 form{
   padding: 5px;
   
